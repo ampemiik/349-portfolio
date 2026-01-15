@@ -37,6 +37,13 @@ a {
     max-width: fit-content;
 }
 
+.profilepic {
+    margin: 0px 15px 0px 15px;
+    max-height: 350px;
+    max-width: fit-content;
+    : 74%;
+}
+
 section {
     margin: 4% 7% 4% 7%
 
