@@ -6,13 +6,13 @@
 
 header {
     display: inline-flex;
-    height: 60px;
+    height: fit-content;
+    max-height: fit-content;
     background-color: #0f0f12;
     display: flex;
     align-items: flex-end;
     padding: 15px 30px 15px 30px;
     max-width: 100%;
-
     
 }
 
@@ -38,14 +38,14 @@ a {
 }
 
 section {
-    padding: 4% 7% 4% 7%
+    margin: 4% 7% 4% 7%
 
 }
 
 input {
-    width: 100%;
     padding: 20px;
     font-size: 1.2rem;
+    width: 96.65%;
 }
 
 textarea {
@@ -55,6 +55,11 @@ textarea {
     padding: 20px;
     font-size: 1.2rem;
 
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
 }
 
 body {
