@@ -16,6 +16,11 @@ header {
     
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 h6 {
     font-size: 2.9rem;
@@ -38,18 +43,15 @@ a {
 }
 
 .profilepic {
-    margin: 0px 15px 0px 15px;
     max-height: 350px;
     max-width: fit-content;
+    text-align: center;
 }
 
 .flexsections {
-    display: flex;
+    display: inline-flex;
 }
 
-section {
-    align-content: center;
-}
 
 .formsection {
     margin: 4% 7% 4% 7%;
