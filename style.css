@@ -43,9 +43,16 @@ a {
     max-width: fit-content;
 }
 
-section {
-    margin: 4% 7% 4% 7%
+.flexsections {
+    display: flex;
+}
 
+section {
+    align-content: center;
+}
+
+.formsection {
+    margin: 4% 7% 4% 7%;
 }
 
 input {
