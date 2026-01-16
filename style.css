@@ -4,6 +4,10 @@
     margin-left: auto;
 }
 
+.contacttext {
+    text-align: left;
+}
+
 header {
     display: inline-flex;
     height: fit-content;
@@ -22,11 +26,42 @@ header {
     margin-right: auto;
 }
 
+h1 {
+    text-align: center;
+    margin: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+
+}
+
 h6 {
     font-size: 2.9rem;
     margin: 0px 15px 0px 15px;
     max-width: fit-content;
 }
+
+p {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    column-count: 2;
+    column-gap: 50px;
+    align-items: center;
+}
+
+ul.centerul {
+    text-align: left;
+}
+div.centerul {
+    text-align: center;
+}
+
 
 a {
     font-size: 2.65rem;
@@ -45,13 +80,14 @@ a {
 .profilepic {
     max-height: 350px;
     max-width: fit-content;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flexsections {
     display: inline-flex;
 }
-
 
 .formsection {
     margin: 4% 7% 4% 7%;
@@ -81,4 +117,8 @@ body {
     color: #d5d5d0;
     margin: 0px;
     max-width: 100%;
+}
+
+button {
+    margin: 20px;
 }
