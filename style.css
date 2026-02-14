@@ -22,19 +22,21 @@ header {
 
 .center {
     display: block;
-    margin-left: auto;
+    margin-left: auto; 
     margin-right: auto;
 }
 
 h1 {
     text-align: center;
     margin: 20px;
+    font-size: 4rem;
 
 }
 
 h2 {
     text-align: center;
     margin: 20px;
+    font-size: 2.3rem;
 
 }
 
@@ -42,10 +44,12 @@ h6 {
     font-size: 2.9rem;
     margin: 0px 15px 0px 15px;
     max-width: fit-content;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 p {
     text-align: center;
+    font-size: 1.3rem;
 }
 
 ul {
@@ -62,7 +66,6 @@ div.centerul {
     text-align: center;
 }
 
-
 a {
     font-size: 2.65rem;
     margin: 0px 15px 0px 15px;
@@ -75,14 +78,16 @@ a {
     margin: 0px 15px 0px 15px;
     max-height: 54px;
     max-width: fit-content;
+    
 }
 
 .profilepic {
     max-height: 350px;
     max-width: fit-content;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+
 }
 
 .flexsections {
