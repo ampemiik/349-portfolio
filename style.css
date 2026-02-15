@@ -17,7 +17,6 @@ header {
     align-items: flex-end;
     padding: 15px 30px 15px 30px;
     max-width: 100%;
-    
 }
 
 .center {
@@ -127,3 +126,12 @@ body {
 button {
     margin: 20px;
 }
+
+.gridcolumns {
+    display: grid;
+    grid-template-columns:repeat(auto-fit);
+    width: 10%;
+    height: auto;
+    gap: 40px;
+}
+
