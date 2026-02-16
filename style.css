@@ -170,3 +170,9 @@ img.project {
     width: 100%;
     height: auto;
 }
+
+hr {
+    width: 50px;
+    margin: 25px auto;
+    border: 1px solid #d5d5d0;
+}
