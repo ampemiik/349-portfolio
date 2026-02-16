@@ -44,12 +44,15 @@ h6 {
     margin: 0px 15px 0px 15px;
     max-width: fit-content;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
 }
 
 p {
     text-align: center;
     font-size: 1.3rem;
 }
+
+
 
 ul {
     display: inline-block;
@@ -61,6 +64,12 @@ ul {
 ul.centerul {
     text-align: left;
 }
+
+li {
+    font-size: 1.3rem;
+    margin: 10px 0px 10px 0px;
+}
+
 div.centerul {
     text-align: center;
 }
@@ -84,7 +93,7 @@ a {
     max-height: 350px;
     max-width: fit-content;
     display: block;
-    margin-top: 65px;
+    padding-top: 40px;
     margin-bottom: 65px;
 
 }
@@ -137,18 +146,16 @@ body {
     display: flex;
     gap: 100px;
     flex: 1 1 200px;
-    max-width: 300px;
+    max-width: 500px;
     height: 400px;
     padding: 40px;
     background-color: #16151a;
     text-align: center;
-    
 }
 
 .center {
   display: block;
   margin: 0 auto;
-  width: 100%;
   text-align: center;
 }
 
