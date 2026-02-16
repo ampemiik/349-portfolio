@@ -114,6 +114,7 @@ textarea {
 button {
     padding: 20px;
     font-size: 1.2rem;
+    margin: 20px;
 }
 
 body {
@@ -123,15 +124,35 @@ body {
     max-width: 100%;
 }
 
-button {
-    margin: 20px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0px 15% 30px 15%;
 }
 
-.gridcolumns {
-    display: grid;
-    grid-template-columns:repeat(auto-fit);
-    width: 10%;
+.flexblock { 
+    display: flex;
+    gap: 100px;
+    flex: 1 1 200px;
+    max-width: 300px;
+    height: 400px;
+    padding: 40px;
+    background-color: #16151a;
+    text-align: center;
+    
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+img.project {
+    width: 100%;
     height: auto;
-    gap: 40px;
 }
-
