@@ -38,6 +38,12 @@ h2 {
     font-size: 2.3rem;
 
 }
+h3 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+
+}
 
 h6 {
     font-size: 2.9rem;
@@ -148,7 +154,7 @@ body {
     gap: 100px;
     flex: 1 1 200px;
     max-width: 500px;
-    height: 400px;
+    height: 460px;
     padding: 40px;
     background-color: #16151a;
     text-align: center;
