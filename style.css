@@ -153,9 +153,9 @@ body {
     display: flex;
     gap: 100px;
     flex: 1 1 200px;
-    max-width: 500px;
+    max-width: 520px;
     height: max-content;
-    padding: 40px;
+    padding: 20px;
     background-color: #16151a;
     text-align: center;
 }
@@ -169,6 +169,7 @@ body {
 img.project {
     width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 hr {
