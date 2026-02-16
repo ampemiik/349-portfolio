@@ -146,7 +146,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  padding: 0px 15% 30px 15%;
+  padding: 55px 15% 30px 15%;
 }
 
 .flexblock { 
@@ -154,7 +154,7 @@ body {
     gap: 100px;
     flex: 1 1 200px;
     max-width: 500px;
-    height: 460px;
+    height: max-content;
     padding: 40px;
     background-color: #16151a;
     text-align: center;
